@@ -1,4 +1,3 @@
-web : gunicorn pointage.wsgi
+web: gunicorn pointage.wsgi
 release: python manage.py makemigrations --noinput
-release: python manage.py collectstatic --noinput
 release: python manage.py migrate --noinputpip list
