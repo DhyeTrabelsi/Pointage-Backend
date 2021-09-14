@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Auth',
-    'rest_framework',
     'api',
+    'rest_framework',
 
 ]
 REST_AUTH_SERIALIZERS = {
